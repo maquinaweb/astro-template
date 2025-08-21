@@ -5,4 +5,22 @@
       "source.organizeImports.biome": "always",
       "source.fixAll.biome": "always"
   },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/*lock*": true,
+    ".vscode": true,
+    ".github": true,
+    ".husky": true,
+    ".npmrc": true,
+    ".editorconfig": true,
+    ".commitlintrc.json": true,
+    "tsconfig.json": true,
+    "renovate.json": true,
+    ".gitignore": true,
+    ".tool-versions": true,
+    "commitlint.config.js": true,
+    "components.json": true,
+    "tsconfig.tsbuildinfo": true,
+    ".astro": true,
+  },
 }
